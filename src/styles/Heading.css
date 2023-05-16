@@ -1,0 +1,26 @@
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.heading > div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 7px;
+  margin: 20px;
+  width: 40%;
+  background-color: gray;
+  height: 3px;
+}
+
+.heading > p {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(79, 79, 79);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}

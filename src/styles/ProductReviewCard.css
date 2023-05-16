@@ -1,0 +1,31 @@
+.review_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  margin: 15px;
+  transition: all 0.5s;
+}
+
+.review_card:hover {
+  box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.735);
+  transform: translateY(-0.4vmax);
+}
+
+.review_card > p {
+  font-weight: 500;
+}
+
+.review_det {
+  display: flex;
+}
+
+.review_det > p {
+  margin-left: 20px;
+}
+
+.review_det > p:last-child {
+  color: orangered;
+  font-weight: 700;
+}

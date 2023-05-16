@@ -1,0 +1,22 @@
+.hotass_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  color: rgb(89, 89, 89);
+  margin: 5px 20px 5px 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  padding: 0 0.5vmax 0;
+}
+
+.links:hover {
+  text-decoration: none;
+  color: orangered;
+  border-bottom: 1px solid orangered;
+}

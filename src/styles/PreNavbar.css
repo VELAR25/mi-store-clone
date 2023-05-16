@@ -1,0 +1,25 @@
+.preNav {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  background-color: black;
+}
+
+.preNav > div {
+  padding: 0.5vmax 4vmax;
+}
+
+.preNav > div > a,
+.preNav > div > span {
+  font-weight: 300;
+  margin-left: 1vmax;
+  text-decoration: none;
+  color: rgb(163, 163, 163);
+}
+
+.preNav div a:hover {
+  color: white;
+}
+
+.cart_icon {
+  font-size: 20px;
+}

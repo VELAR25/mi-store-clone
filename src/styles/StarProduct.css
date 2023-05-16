@@ -1,0 +1,48 @@
+.star_main {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+}
+
+.star_right {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.star_left > a > img {
+  transition: all 0.5s;
+}
+
+.star_left > a > img:hover {
+  transform: translateX(-0.5vmax);
+}
+
+.star_right > .star_right_top > a > img {
+  transition: all 0.5s;
+}
+
+.star_right > .star_right_top > a > img:hover {
+  transform: translateY(-0.5vmax);
+}
+
+.star_right > .star_right_down > a > img {
+  transition: all 0.5s;
+}
+
+.star_right > .star_right_down > a > img:hover {
+  transform: translateY(0.5vmax);
+}
+
+.star_left {
+  margin: 5px;
+}
+
+.star_right_top > a {
+  margin-right: 5px;
+}
+
+.star_right_down {
+  margin-top: 5px;
+}

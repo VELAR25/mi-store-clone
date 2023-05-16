@@ -1,0 +1,24 @@
+.HotAccessories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 85vw;
+  margin-top: 20px;
+  background-color: rgb(244, 244, 244);
+}
+
+.right {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  margin-left: 15px;
+  transition: all 0.5s;
+}
+
+.left:hover {
+  transform: translateY(-0.5vmax);
+}
